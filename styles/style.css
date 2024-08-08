@@ -86,49 +86,11 @@ iframe {
     border: none;
 }
 
-/*
-  Доступно скрываю элементы
-  */
-
 .visually-hidden {
     position: fixed;
     transform: scale(0);
 }
 
-
-/*
-  Пример контейнера
-  
-  Если контейнер 1180px по макету,
-  то для max-width прибавляем паддинги 30px*2, 
-  в итоге 1240px
-  Чтобы контент не прижимался к краям экрана
-*/
-
-/*.container {
-    --offset-container: 14px;
-    max-width: calc(1300px + var(--offset-container)*2);
-    padding: 0 var(--offset-container);
-    margin: 0 auto;
-}
-
-.svg-sprite{
-    display: none;
-}
-
-@media (width >= 620px) {
-    .container {
-        --offset-container: 40px;
-    }
-}
-@media (width >= 860px) {
-    
-}
-@media (width >= 1140px) {
-    .container {
-        --offset-container: 70px;
-    }
-}*/
 
 .main-content{
     padding-top: calc(79px + 30px);
