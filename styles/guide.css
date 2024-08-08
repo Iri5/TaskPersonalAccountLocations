@@ -1,0 +1,17 @@
+.guide{
+    position: relative;
+    display: inline-block;
+    padding-right: 30px;
+    line-height: 24px;
+}
+
+.guide::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url(/img/guide-icon.svg);
+    background-size: 24px 24px;
+    background-position: center center;
+}

@@ -1,0 +1,82 @@
+.item__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+
+    margin-bottom: 17px;
+    line-height: 18px;
+
+    color: var(--standartblack);
+}
+
+.item__info>span {
+    padding-right: 15px;
+}
+
+.list__item>ul {
+    padding-left: 45px;
+}
+
+.item__title {
+    color: var(--black);
+    font-family: 'Futura PT';
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.item__count {
+    color: var(--orange);
+}
+
+.item__important {
+    font-weight: 700;
+}
+
+.item__edit {
+    position: relative;
+    padding-left: 17px;
+    color: var(--orange);
+}
+
+.item__delete {
+    position: relative;
+    padding-left: 15px;
+    color: var(--red);
+}
+.item__edit:hover, 
+.item__delete:hover, 
+.item__hide-icon:hover, 
+.item__show-icon:hover{
+    cursor: pointer;
+}
+.item__edit::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 12px;
+    height: 100%;
+    background-image: url(/img/edit-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: center center;
+}
+
+.item__delete::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 10px;
+    height: 100%;
+    background-image: url(/img/delete-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+    background-position: center center;
+}

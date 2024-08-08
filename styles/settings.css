@@ -1,0 +1,50 @@
+.settings{
+    width: 100%;
+    padding-right: 30px;
+}
+.settings__title{
+    font-family: 'Futura PT';
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--standartblack);
+
+    margin-bottom: 25px;
+}
+
+.settings__tabs{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+
+    font-family: 'Futura PT';
+    font-weight: 600;
+
+    margin-bottom: 32px;
+}
+.settings__tab{
+    height: 37px;
+    padding: 0 10px;
+    min-width: 132px;
+}
+
+.settings__actions>button{
+    height: 50px;
+    width: 198px;
+    
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.settings__actions{
+    width: 100%;
+    padding-left: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;     
+}

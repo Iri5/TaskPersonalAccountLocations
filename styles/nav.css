@@ -1,0 +1,91 @@
+.nav{
+    font-family: 'Futura PT';
+    font-weight: normal;
+    font-size: 17px;
+}
+.nav__link, .nav__exit {
+    width: 290px;
+    height: 62px;
+    background-color: var(--white);
+    border-bottom: 1px solid var(--lightgrey);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 46px;
+}
+
+.nav__link:hover, .nav__exit:hover, .nav__link-hover{
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav__link>a{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 100%;
+}
+.nav__link>a::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    width: 15px;
+    height: 15px;
+    background-image: url('https://avatars.mds.yandex.net/i?id=905ddc4ffc1ff628b779c9b2661afa02_l-5312449-images-thumbs&n=13');
+    background-size: 15px 15px;
+}
+
+.nav__link-property>a::before {
+    background-image: url(/img/property-icon.svg);
+}
+.nav__link-inventory>a::before {
+    background-image: url(/img/inventory-icon.svg);
+}
+.nav__link-staff>a::before {
+    background-image: url(/img/staff-icon.svg);
+}
+.nav__link-notifications>a::before {
+    background-image: url(/img/notifications-icon.svg);
+}
+.nav__link-locations>a::before {
+    background-image: url(/img/locations-icon.svg);
+}
+.nav__link-settings>a::before {
+    background-image: url(/img/settings-icon.svg);
+}
+
+
+.nav__exit{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0;
+    color: var(--orange);
+}
+
+.nav__exit>span{
+    display: block;
+    position: relative;
+}
+.nav__exit>span::before{
+    content: "";
+    position: absolute;
+    left: -24px;
+    width: 10px;
+    height: 100%;
+    background-image: url('/img/menu-arrow.svg');
+    background-size: 10px 7px;
+    background-repeat: no-repeat;
+    background-position: center;
+}

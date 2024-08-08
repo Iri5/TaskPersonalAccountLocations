@@ -1,0 +1,51 @@
+.checkbox-delete {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: relative;
+}
+
+.checkbox-delete input[type=checkbox] {
+    z-index: -1;
+    opacity: 0;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.checkbox-delete span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 76px;
+    line-height: 50px;
+    width: 195px;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    -webkit-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+    background-color: var(--white);
+    color: var(--black);
+    text-transform: uppercase;
+    
+}
+
+.checkbox-delete span::before{
+    content: "";
+    position: absolute;
+    left: 50px;
+    width: 24px;
+    height: 50px;
+    background-image: url(/img/delete-icon.svg);
+    background-size: 11px 11px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.checkbox-delete input[type=checkbox]:checked+span {
+    background: rgba(23, 33, 57, 0.5);;
+}

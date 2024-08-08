@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Локации</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="js/script.js" type="module"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html">
+                <svg class="header__logo" width="65" height="45" viewBox="0 0 65 45" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.19026 38.3109L9.17537 17.4546H13.9886L18.9737 38.3109L11.4674 44.2698L4.19026 38.3109Z"
+                        fill="#FF6600" />
+                    <path
+                        d="M13.9886 16.1855H9.17537L7.39907 13.5371C6.90362 12.59 8.02011 11.7206 8.77824 11.6611H14.4414C15.1382 11.6611 15.9921 12.8358 15.593 13.5371L13.9886 16.1855Z"
+                        fill="#FF6600" />
+                    <path d="M0 32.0469V27.2789L7.88586 18.7319L4.84155 30.8814L0 32.0469Z" fill="#FF6600" />
+                    <path
+                        d="M7.39898 13.5371C6.90353 12.59 8.02003 11.7206 8.77815 11.6611H11.6097L11.5819 16.1855H9.17528L7.39898 13.5371Z"
+                        fill="url(#paint0_linear_2286_14509)" />
+                    <path d="M11.4561 17.4551H13.9862L16.2556 26.9242L11.4561 31.6714V17.4551Z"
+                        fill="url(#paint1_linear_2286_14509)" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.78633 31.5268L5.39742 33.1539C8.65838 29.9811 15.2193 23.5806 15.3752 23.3613L15.1803 22.546L5.78633 31.5268ZM13.9632 17.4541L14.228 18.5618L7.31313 25.1391L7.62406 23.8383L13.9632 17.4541ZM16.2854 27.1695L4.43652 38.5328L5.14841 39.1158L16.5366 28.2203L16.2854 27.1695ZM8.36604 41.7506L7.67126 41.1606L17.4109 31.8783L17.6816 33.0105L8.36604 41.7506Z"
+                        fill="white" />
+                    <rect x="27.1416" width="37.4396" height="16.9082" rx="3.62319" fill="#FF6600" />
+                    <path
+                        d="M30.0725 7.91546H31.401L32.7053 10.814L34.0097 7.91546H35.3382L32.7053 13.3623L30.0725 7.91546ZM44.0536 11.8647V13H38.643L41.4329 9.61836C41.8515 9.11111 42.1736 8.69243 42.399 8.36232C42.6808 7.94364 42.8217 7.55717 42.8217 7.2029C42.8217 6.84058 42.705 6.53462 42.4715 6.28502C42.238 6.02737 41.9079 5.89855 41.4812 5.89855C41.0544 5.89855 40.7163 6.03945 40.4667 6.32126C40.2171 6.60306 40.0802 6.94927 40.056 7.3599H38.8725C38.9047 6.65137 39.1301 6.06361 39.5488 5.59662C40.0158 5.07327 40.6438 4.81159 41.4329 4.81159C42.2461 4.81159 42.8821 5.04911 43.3411 5.52415C43.8 5.99919 44.0295 6.57085 44.0295 7.23913C44.0295 7.79469 43.8362 8.35829 43.4498 8.92995C43.2404 9.24396 42.858 9.72705 42.3024 10.3792L41.0464 11.8647H44.0536ZM46.099 12.9396C45.9622 12.7947 45.8937 12.6216 45.8937 12.4203C45.8937 12.219 45.9622 12.0499 46.099 11.913C46.244 11.7681 46.4171 11.6957 46.6184 11.6957C46.8196 11.6957 46.9887 11.7681 47.1256 11.913C47.2705 12.0499 47.343 12.219 47.343 12.4203C47.343 12.6216 47.2705 12.7947 47.1256 12.9396C46.9887 13.0765 46.8196 13.1449 46.6184 13.1449C46.4171 13.1449 46.244 13.0765 46.099 12.9396ZM53.3932 12.2633C52.8859 12.843 52.278 13.1329 51.5695 13.1329C50.8609 13.1329 50.2531 12.843 49.7458 12.2633C49.0614 11.4823 48.7192 10.3873 48.7192 8.97826C48.7192 7.56119 49.0614 6.46216 49.7458 5.68116C50.2531 5.10145 50.8609 4.81159 51.5695 4.81159C52.278 4.81159 52.8859 5.10145 53.3932 5.68116C54.0775 6.46216 54.4197 7.56119 54.4197 8.97826C54.4197 10.3873 54.0775 11.4823 53.3932 12.2633ZM52.6564 6.5628C52.3666 6.11997 52.0043 5.89855 51.5695 5.89855C51.1347 5.89855 50.7724 6.11997 50.4825 6.5628C50.1122 7.11031 49.927 7.91143 49.927 8.96618C49.927 10.0129 50.1122 10.818 50.4825 11.3816C50.7724 11.8245 51.1347 12.0459 51.5695 12.0459C52.0043 12.0459 52.3666 11.8245 52.6564 11.3816C53.0268 10.818 53.212 10.0129 53.212 8.96618C53.212 7.91143 53.0268 7.11031 52.6564 6.5628ZM56.9734 13V6.07971H55.5724L56.2488 4.94444H58.2053V13H56.9734Z"
+                        fill="white" />
+                    <defs>
+                        <linearGradient id="paint0_linear_2286_14509" x1="9.44304" y1="16.1855" x2="13.0576"
+                            y2="13.8256" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#EA7438" stop-opacity="0" />
+                            <stop offset="1" stop-color="#EA8D38" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_2286_14509" x1="11.4561" y1="31.6714" x2="16.2538"
+                            y2="32.0175" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#EAB838" />
+                            <stop offset="1" stop-color="#EA7438" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+            <button class="header__login" aria-label="Войти в профиль">
+                <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.40267 12.3609C9.40267 12.5869 9.21524 12.7707 8.98477 12.7707H1.67159C1.44112 12.7707 1.25369 12.5869 1.25369 12.3609V1.63906C1.25369 1.41307 1.44112 1.22929 1.67159 1.22929H8.98477C9.21524 1.22929 9.40267 1.41307 9.40267 1.63906V4.80879H10.6564V1.63906C10.6564 0.735322 9.90644 0 8.98477 0H1.67159C0.749915 0 0 0.735322 0 1.63906V12.3609C0 13.2647 0.749915 14 1.67159 14H8.98477C9.90644 14 10.6564 13.2647 10.6564 12.3609V9.19121H9.40267V12.3609ZM12.5528 3.61986L11.6664 4.48897L13.6002 6.38535H4.45728V7.61465H13.6006L11.6664 9.51124L12.5528 10.3803L16 7.0002L12.5528 3.61986Z"
+                        fill="#FF6600" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <aside class="nav">
+            <nav>
+                <ul class="nav__links">
+                    <li class="nav__link nav__link-property">
+                        <a href="#">Имущество</a>
+                    </li>
+                    <li class="nav__link nav__link-inventory">
+                        <a href="">Инвентаризация</a>
+                    </li>
+                    <li class="nav__link nav__link-staff">
+                        <a href="">Сотрудники</a>
+                    </li>
+                    <li class="nav__link nav__link-notifications">
+                        <a href="">Уведомления</a>
+                    </li>
+                    <li class="nav__link nav__link-locations nav__link-hover">
+                        <a href="index.html">Локации</a>
+                    </li>
+                    <li class="nav__link nav__link-settings">
+                        <a href="settings.html">Настройки</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav__exit" aria-label="Скрыть меню"> <span>Скрыть меню</span></button>
+        </aside>
+        <main class="locations">
+            <h1 class="locations__title">Локации / Все локации</h1>
+            <div class="locations__actions">
+                <div class="locations__tabs">
+                    <button class="locations__tab button-default">Все локации</button>
+                    <button class="locations__tab button-white">Импорт/Экспорт</button>
+                    <button class="locations__tab button-white">Настройки</button>
+                </div>
+
+                <button type="button" class="locations__sinchronization button-default"> СИНХРОНИЗАЦИЯ <span
+                        class="time">(17.05.2024 15:23:21)</span></button>
+            </div>
+
+            <div class="search-add-container">
+                <button class="locations__add-button button-default">Создать локацию</button>
+
+                <form action="" method="get" class="locations__search search">
+                    <input type="checkbox" id="exact" name="exact" class="custom-checkbox">
+                    <label for="exact">Поиск по точному вхождению</label>
+
+                    <input type="search" name="search" placeholder="ПОИСК" class="search__input">
+                </form>
+            </div>
+
+
+            <ul class="locations__list list">
+                <li class="list__item">
+                    <div class="item__info">
+                        <svg class="item__hide-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                            <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                        </svg>
+                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                        </svg>
+                        <span class="item__title">Локация 1</span>
+                        <span class="item__count">512</span>
+                        <span class="item__edit locations__edit-button">Редактировать</span>
+                        <span class="item__delete">Удалить</span>
+                    </div>
+
+                    <ul>
+                        <li class="list__item">
+                            <div class="item__info">
+                                <svg class="item__show-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                                    <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                                    <path d="M11 14L9 14L9 6L11 6L11 14Z" fill="white" />
+                                </svg>
+                                <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                                </svg>
+                                <span class="item__title">Подотдел 1</span>
+                                <span class="item__count">10</span>
+                                <span>Для утерь</span>
+                            </div>
+
+                        </li>
+                        <li class="list__item">
+                            <div class="item__info">
+                                <svg class="item__hide-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                                    <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                                </svg>
+                                <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                                </svg>
+                                <span class="item__title">Подотдел 2</span>
+                                <span class="item__count">100</span>
+                            </div>
+
+
+                            <ul>
+                                <li class="list__item">
+                                    <div class="item__info">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                                            <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                                            <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                                        </svg>
+                                        <span class="item__title">Подподотдел 1</span>
+                                        <span class="item__count">2</span>
+                                        <span>Виртуальная</span>
+                                        <span class="item__important">Без штрихкода</span>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list__item">
+                            <div class="item__info">
+                                <svg class="item__show-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                                    <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                                    <path d="M11 14L9 14L9 6L11 6L11 14Z" fill="white" />
+                                </svg>
+                                <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                                    <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                                </svg>
+                                <span class="item__title">Подотдел 3</span>
+                                <span class="item__count">400</span>
+                            </div>
+
+                        </li>
+                    </ul>
+                </li>
+                <li class="list__item">
+                    <div class="item__info">
+                        <svg class="item__show-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                            <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                            <path d="M11 14L9 14L9 6L11 6L11 14Z" fill="white" />
+                        </svg>
+                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                        </svg>
+                        <span class="item__title">Локация 2</span>
+                        <span class="item__count">100</span>
+                    </div>
+
+                </li>
+                <li class="list__item">
+                    <div class="item__info">
+                        <svg class="item__show-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="#FF6600" />
+                            <path d="M14 9V11H6L6 9L14 9Z" fill="white" />
+                            <path d="M11 14L9 14L9 6L11 6L11 14Z" fill="white" />
+                        </svg>
+                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="2" cy="2" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="8" r="2" fill="#FF6600" />
+                            <circle cx="2" cy="14" r="2" fill="#FF6600" />
+                        </svg>
+                        <span class="item__title">Локация 3</span>
+                        <span class="item__count">100</span>
+                    </div>
+
+                </li>
+            </ul>
+
+            <div class="modal modal-add-location modal-location">
+                <div class="modal__main modal-add-location__main modal-location__main">
+                    <h2 class="modal-location__title">Создать локацию</h2>
+                    <form class="modal-add-location__form modal-location__form" action="" method="post">
+                        <label class="visually-hidden" for="add_title">Введите название локации:</label>
+                        <input class="input" type="text" name="title" id="add_title" placeholder="Название" required>
+
+                        <label class="visually-hidden" for="add_barcode">Введите штрихкод:</label>
+                        <input class="input" type="number" name="barcode" id="add_barcode" placeholder="Штрихкод"
+                            required>
+
+                        <label class="visually-hidden" for="add_rfid">Введите RFID:</label>
+                        <input class="input" type="number" name="rfid" id="add_rfid" placeholder="RFID" required>
+
+
+                        <label class="visually-hidden" for="add_nesting">Выберите вложенность:</label>
+                        <select class="select" name="nesting" id="add_nesting" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+
+                        <label class="toggle">
+                            <span class="toggle-label">Виртуальная локация</span>
+                            <input class="toggle-checkbox" type="checkbox" name="virtual">
+                            <div class="toggle-switch"></div>
+
+                        </label>
+
+                        <label class="toggle">
+                            <span class="toggle-label">Локация для утерь</span>
+                            <input class="toggle-checkbox" type="checkbox" name="loss">
+                            <div class="toggle-switch"></div>
+                        </label>
+
+                        <div class="modal-location__actions">
+                            <button class="button-default modal-location__create modal__save"
+                                type="submit"><span>Создать</span>
+                            </button>
+                            <button class="button-outline modal__close" type="button">Отменить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal modal-location modal-edit-location">
+                <div class="modal__main modal-location__main">
+                    <h2 class="modal-location__title">Изменить локацию название</h2>
+                    <form class="modal-location__form" action="" method="post">
+                        <div class="aria-label">
+                            <label for="edit_title">Название</label>
+                            <input class="input" type="text" name="title" id="edit_title" required>
+                        </div>
+                        <div class="aria-label">
+                            <label for="edit_barcode">Штрихкод</label>
+                            <input class="input" type="number" name="barcode" id="edit_barcode" required>
+                        </div>
+                        <div class="aria-label">
+                            <label for="edit_rfid">RFID</label>
+                            <input class="input" type="number" name="rfid" id="edit_rfid" required>
+                        </div>
+                        <div class="aria-label">
+                            <label for="edit_nesting">Вложенность</label>
+                            <select class="select" name="nesting" id="edit_nesting" required>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                        <label class="toggle">
+                            <span class="toggle-label">Виртуальная локация</span>
+                            <input class="toggle-checkbox" type="checkbox" name="virtual">
+                            <div class="toggle-switch"></div>
+                        </label>
+                        <label class="toggle">
+                            <span class="toggle-label">Локация для утерь</span>
+                            <input class="toggle-checkbox" type="checkbox" name="loss">
+                            <div class="toggle-switch"></div>
+                        </label>
+                        <div class="modal-location-edit__actions">
+                            <label class="checkbox-delete">
+                                <input type="checkbox" name="delete">
+                                <span>Удалить</span>
+                            </label>
+                            <button class="button-outline modal__close" type="button">Отменить</button>
+                        </div>
+                        <button class="button-default modal__save modal-location__save" type="submit"><span>Сохранить</span> </button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <span>Последний приём 20.09.2021 18:36:21</span>
+        <span>Последняя передача 20.09.2021 18:38:21</span>
+    </footer>
+</body>
+</html>

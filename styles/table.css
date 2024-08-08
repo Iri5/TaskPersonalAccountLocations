@@ -1,0 +1,104 @@
+.table__row>td:first-child{
+    height: 60px;
+    max-width: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 30px;
+}
+.table{
+    width: 100%;
+    color: var(--standartblack);
+    border-spacing: 0;
+}
+input[name='sort']{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    border: 1px solid var(--inputtable);
+    border-radius: 5px;
+}
+input[name='sort']::-webkit-input-placeholder{
+    color: var(--standartblack);
+}
+input[name='sort']::-moz-placeholder{
+    color: var(--standartblack);
+}
+input[name='sort']:-ms-input-placeholder{
+    color: var(--standartblack);
+}
+input[name='sort']::-ms-input-placeholder{
+    color: var(--standartblack);
+}
+input[name='sort']::placeholder{
+    color: var(--standartblack);
+}
+input[name='sort']::-webkit-outer-spin-button,
+input[name='sort']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+.table__row>th{
+    color: var(--standartblack);
+    font-weight: 400;
+    font-size: 13px;
+    height: 40px;
+    padding-left: 9px;
+}
+.table__row>th:first-child{
+    border-right: 1px dashed #c4c4c4;;
+}
+.table__row>th{
+    text-align: left;
+}
+
+.table>tbody>.table__row:nth-child(odd){
+    height: 60px;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+.table__title{
+    font-family: 'Futura PT';
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--standartblack);
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.table__button{
+    font-weight: 400;
+    font-family: 'Futura PT';
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+
+    width: 255px;
+    height: 50px;
+    padding: 10px 10px 10px 71px;
+    margin-top: 18px;
+
+    position: relative;
+}
+
+.table__button::before{
+    content: "";
+    position: absolute;
+    left: 48px;
+    width: 14px;
+    height: 14px;
+    background-image: url(/img/add-table.svg);
+    background-size: 14px 14px;
+    background-position: center center;
+}
+
+

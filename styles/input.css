@@ -1,0 +1,28 @@
+.input{
+    font-family: 'Futura PT';
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--standartblack);
+    height: 50px;
+    width: 360px;
+    background-color: var(--inputbg);
+    border: 1px solid var(--inputstroke);
+    border-radius: 5px;
+    outline: none;
+    padding-left: 25px;
+}
+.input::-webkit-input-placeholder{
+    color: var(--grey);
+}
+.input::-moz-placeholder{
+    color: var(--grey);
+}
+.input:-ms-input-placeholder{
+    color: var(--grey);
+}
+.input::-ms-input-placeholder{
+    color: var(--grey);
+}
+.input::placeholder{
+    color: var(--grey);
+}

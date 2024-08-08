@@ -1,0 +1,20 @@
+.button-default{
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.button-outline{
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 5px;
+    border: 1px solid var(--black);
+}
+
+.button-white{
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}

@@ -1,0 +1,76 @@
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: var(--inputtable);
+    border-radius: 53px;
+    width: 52px;
+    height: 28px;
+    position: relative;
+    vertical-align: middle;
+    -webkit-transition: background 0.25s;
+    -o-transition: background 0.25s;
+    transition: background 0.25s;
+}
+
+.toggle-switch:before,
+.toggle-switch:after {
+    content: "";
+}
+
+.toggle-switch:before {
+    display: block;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background: -o-linear-gradient(top, #fff 0%, #eee 100%);
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    -webkit-transition: left 0.25s;
+    -o-transition: left 0.25s;
+    transition: left 0.25s;
+}
+
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    background: var(--orange);
+}
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    left: 27px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle-label {
+    position: relative;
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 1.125;
+    color: var(--black);
+}
+
+.toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
